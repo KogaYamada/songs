@@ -17,7 +17,6 @@ class SongList extends React.Component {
               Select
             </button>
           </div>
-
           <div className="content">{song.title}</div>
         </div>
       );
@@ -31,7 +30,6 @@ class SongList extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-  console.log(state);
   return { songs: state.songs };
 };
 
